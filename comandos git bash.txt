@@ -1,0 +1,26 @@
+entrar no project- embedded 
+cd C:\embarcados\Project-Embedded
+
+ver conteudo 
+cat nomedoarquivo
+
+historico de alterado
+git log
+
+ver o que foi modificado 
+git diff nomedoarquivo
+
+para adicionar 
+git add nomedoarquivo
+
+comentar o que foi modificado 
+git commit -m "comentario"
+
+para subir codigo pro github
+git push origin main
+
+para baixar codigo do github
+git pull
+
+para linkar repositorio git com github
+git clone link do repositorio
