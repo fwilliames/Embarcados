@@ -1,0 +1,5 @@
+ acender Led com botao
+http://www.comofazerascoisas.com.br/projeto-arduino-led-com-botao-liga-desliga.html
+
+acionar buzzer com botao
+https://www.tinkercad.com/things/2bCQayrLxd6
