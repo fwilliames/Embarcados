@@ -1,5 +1,5 @@
 int pinAzul = 12; //Controle do Led usando a porta 12
-int pinBotao = 7; //Controle do Botao usando a porta 7
+int pinInterruptor = 7; //Controle do Botao usando a porta 7
 int estadoInterruptor;  //Guarda o estado do interruptor caso Pressionado ou Nao
 int pinBuzzer = 2;  //Controle do Buzzer usando a porta 2
 int lastPressTime = 0; //Variavel usada para controlar tem do interruptor ligado
@@ -9,7 +9,7 @@ int pinMotor = 3; //Controle do motor usando a porta 3
 void setup()
 {
   pinMode(pinAzul,OUTPUT);  //Saida de corrente da porta 12
-  pinMode(pinBotao,INPUT);  //Entrada de corrente na porta 7
+  pinMode(pinInterruptor,INPUT);  //Entrada de corrente na porta 7
   pinMode(pinBuzzer,OUTPUT);  //Saida de corrente na porta 2
   pinMode(pinMotor,OUTPUT); //Saida de corrente na porta 3
 }
@@ -17,7 +17,7 @@ void setup()
 void loop()
 {
  
-  estadoInterruptor = digitalRead(pinBotao);  //estadoBotao guarda a situação caso Interruptor seja ligado ou nao
+  estadoInterruptor = digitalRead(pinInterruptor);  //estadoBotao guarda a situação caso Interruptor seja ligado ou nao
   
   if (estadoInterruptor == HIGH)  //Verificar se interruptor foi ligado 
   {
